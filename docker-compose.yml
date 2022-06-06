@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  spring-boot-app:
+    image: mpholo/frontend:0.0.1-SNAPSHOT
+    container_name: spring-boot-app
+    ports:
+      - "8083:8083"
